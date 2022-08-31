@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/skywalkerch/Desktop/VerilogStudy/test/nandTest.v
+source_file = 1, C:/Users/skywalkerch/Desktop/VerilogStudy/test/Waveform.vwf
+source_file = 1, C:/Users/skywalkerch/Desktop/VerilogStudy/test/db/nandTest.cbx.xml
+design_name = nandTest
+instance = comp, \Sum~output , Sum~output, nandTest, 1
+instance = comp, \Cout~output , Cout~output, nandTest, 1
+instance = comp, \Cin~input , Cin~input, nandTest, 1
+instance = comp, \B~input , B~input, nandTest, 1
+instance = comp, \A~input , A~input, nandTest, 1
+instance = comp, \o1~0 , o1~0, nandTest, 1

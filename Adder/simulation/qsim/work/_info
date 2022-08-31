@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\skywalkerch\Desktop\VerilogStudy\FourBitAdder\simulation\qsim
+vCLA4
+Z1 IRUSEo195;[>[j=_OmhdTF0
+Z2 VE5Y`B>FIm?9AUjU<mP@U=0
+Z3 dC:\Users\skywalkerch\Desktop\VerilogStudy\FourBitAdder\simulation\qsim
+Z4 w1661929792
+Z5 8FourBitAdder.vo
+Z6 FFourBitAdder.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@c@l@a4
+!i10b 1
+Z10 !s100 CZDlIaJjZN_;XUL;Qcj<i0
+!s85 0
+Z11 !s108 1661929793.819000
+Z12 !s107 FourBitAdder.vo|
+Z13 !s90 -work|work|FourBitAdder.vo|
+!s101 -O0
+vCLA4_vlg_check_tst
+!i10b 1
+!s100 gFmMG_fCfH4[5oIYzF>0g3
+I[HV@ZN7:Im1Ef85;nFXK>3
+VjV7X@:Lcfia8Pol1;hi[N1
+R3
+Z14 w1661929791
+Z15 8Waveform.vwf.vt
+Z16 FWaveform.vwf.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z17 !s108 1661929793.887000
+Z18 !s107 Waveform.vwf.vt|
+Z19 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R8
+n@c@l@a4_vlg_check_tst
+vCLA4_vlg_sample_tst
+!i10b 1
+!s100 a@FKhhE=QhXk=Dl8J6K>S1
+Iz[<Rl:AWV<z_noU<e9>iT0
+VR[FOQQT9nfWWL=>j0DOZ`3
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@c@l@a4_vlg_sample_tst
+vCLA4_vlg_vec_tst
+!i10b 1
+!s100 7?eebV<I?hX?dR<5n5Igi2
+I7zdZcz>Toc0U8n3j;[@k22
+VZ??VQh8Pz^1[^MC5IY;4j0
+R3
+R14
+R15
+R16
+L0 240
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@c@l@a4_vlg_vec_tst

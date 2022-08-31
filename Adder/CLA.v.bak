@@ -1,0 +1,8 @@
+module CLA(C0,P,G,PG,GG,C4);
+parameter size=4;
+input [0:size-1] P;
+input [0:size-1] G;
+output [0:size-1] PG;
+output [0:size-1] GG;
+
+input 

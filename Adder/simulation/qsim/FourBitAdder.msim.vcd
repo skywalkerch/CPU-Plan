@@ -1,0 +1,96 @@
+$comment
+	File created using the following command:
+		vcd file FourBitAdder.msim.vcd -direction
+$end
+$date
+	Wed Aug 31 15:09:54 2022
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module CLA4_vlg_vec_tst $end
+$var reg 4 ! A [0:3] $end
+$var reg 4 " B [0:3] $end
+$var reg 1 # Cin $end
+$var wire 1 $ Cout $end
+$var wire 1 % Sum [0] $end
+$var wire 1 & Sum [1] $end
+$var wire 1 ' Sum [2] $end
+$var wire 1 ( Sum [3] $end
+$var wire 1 ) sampler $end
+$scope module i1 $end
+$var wire 1 * gnd $end
+$var wire 1 + vcc $end
+$var wire 1 , unknown $end
+$var tri1 1 - devclrn $end
+$var tri1 1 . devpor $end
+$var tri1 1 / devoe $end
+$var wire 1 0 Sum[3]~output_o $end
+$var wire 1 1 Sum[2]~output_o $end
+$var wire 1 2 Sum[1]~output_o $end
+$var wire 1 3 Sum[0]~output_o $end
+$var wire 1 4 Cout~output_o $end
+$var wire 1 5 B[1]~input_o $end
+$var wire 1 6 A[0]~input_o $end
+$var wire 1 7 Cin~input_o $end
+$var wire 1 8 B[0]~input_o $end
+$var wire 1 9 C1|H2~0_combout $end
+$var wire 1 : A[1]~input_o $end
+$var wire 1 ; F4|X2~0_combout $end
+$var wire 1 < B[2]~input_o $end
+$var wire 1 = A[2]~input_o $end
+$var wire 1 > F4|X2~1_combout $end
+$var wire 1 ? A[3]~input_o $end
+$var wire 1 @ B[3]~input_o $end
+$var wire 1 A F4|X2~2_combout $end
+$var wire 1 B F3|X2~combout $end
+$var wire 1 C F2|X2~combout $end
+$var wire 1 D F1|X2~0_combout $end
+$var wire 1 E C1|H4~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1011 !
+b1010 "
+0#
+1$
+0(
+0'
+1&
+0%
+x)
+0*
+1+
+x,
+1-
+1.
+1/
+00
+01
+12
+03
+14
+05
+16
+07
+18
+19
+0:
+0;
+1<
+1=
+1>
+1?
+0@
+0A
+0B
+1C
+0D
+1E
+$end
+#1000000

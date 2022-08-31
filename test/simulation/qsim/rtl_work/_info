@@ -1,0 +1,26 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\skywalkerch\Desktop\VerilogStudy\test\simulation\qsim
+vnandTest
+!i10b 1
+!s100 AIbhmzWA6kM5Ba6[G39Z63
+I1[idX7c5lAkEBQTAzUoEf3
+Z1 V<5>?<:J2_`WL:JKT4L[m<0
+Z2 dC:\Users\skywalkerch\Desktop\VerilogStudy\test\simulation\qsim
+w1661857858
+8C:/Users/skywalkerch/Desktop/VerilogStudy/test/nandTest.v
+FC:/Users/skywalkerch/Desktop/VerilogStudy/test/nandTest.v
+L0 2
+Z3 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1661858211.516000
+!s107 C:/Users/skywalkerch/Desktop/VerilogStudy/test/nandTest.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/skywalkerch/Desktop/VerilogStudy/test|C:/Users/skywalkerch/Desktop/VerilogStudy/test/nandTest.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/skywalkerch/Desktop/VerilogStudy/test -O0
+Z4 nnand@test

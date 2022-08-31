@@ -1,0 +1,110 @@
+|CLA4
+A[3] => A[3].IN1
+A[2] => A[2].IN1
+A[1] => A[1].IN1
+A[0] => A[0].IN1
+B[3] => B[3].IN1
+B[2] => B[2].IN1
+B[1] => B[1].IN1
+B[0] => B[0].IN1
+Cin => Cin.IN2
+Sum[3] <= FA_Str:F4.port3
+Sum[2] <= FA_Str:F3.port3
+Sum[1] <= FA_Str:F2.port3
+Sum[0] <= FA_Str:F1.port3
+Cout <= CLA:C1.port3
+
+
+|CLA4|FA_Str:F1
+A => X1.IN0
+A => A4.IN0
+A => O2.IN0
+B => X1.IN1
+B => A4.IN1
+B => O2.IN1
+Cin => X2.IN1
+Sum <= X2.DB_MAX_OUTPUT_PORT_TYPE
+P <= O2.DB_MAX_OUTPUT_PORT_TYPE
+G <= A4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA4|FA_Str:F2
+A => X1.IN0
+A => A4.IN0
+A => O2.IN0
+B => X1.IN1
+B => A4.IN1
+B => O2.IN1
+Cin => X2.IN1
+Sum <= X2.DB_MAX_OUTPUT_PORT_TYPE
+P <= O2.DB_MAX_OUTPUT_PORT_TYPE
+G <= A4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA4|FA_Str:F3
+A => X1.IN0
+A => A4.IN0
+A => O2.IN0
+B => X1.IN1
+B => A4.IN1
+B => O2.IN1
+Cin => X2.IN1
+Sum <= X2.DB_MAX_OUTPUT_PORT_TYPE
+P <= O2.DB_MAX_OUTPUT_PORT_TYPE
+G <= A4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA4|FA_Str:F4
+A => X1.IN0
+A => A4.IN0
+A => O2.IN0
+B => X1.IN1
+B => A4.IN1
+B => O2.IN1
+Cin => X2.IN1
+Sum <= X2.DB_MAX_OUTPUT_PORT_TYPE
+P <= O2.DB_MAX_OUTPUT_PORT_TYPE
+G <= A4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA4|CLA:C1
+p[3] => Y7.IN0
+p[3] => Y8.IN0
+p[3] => Y9.IN0
+p[3] => Y10.IN0
+p[2] => Y4.IN0
+p[2] => Y5.IN0
+p[2] => Y6.IN0
+p[2] => Y8.IN1
+p[2] => Y9.IN1
+p[2] => Y10.IN1
+p[1] => Y2.IN0
+p[1] => Y3.IN0
+p[1] => Y5.IN1
+p[1] => Y6.IN1
+p[1] => Y9.IN2
+p[1] => Y10.IN2
+p[0] => Y1.IN0
+p[0] => Y3.IN1
+p[0] => Y6.IN2
+p[0] => Y10.IN3
+g[3] => H4.IN4
+g[2] => Y7.IN1
+g[2] => H3.IN3
+g[1] => Y4.IN1
+g[1] => Y8.IN2
+g[1] => H2.IN2
+g[0] => Y2.IN1
+g[0] => Y5.IN2
+g[0] => Y9.IN3
+g[0] => H1.IN1
+cin => Y1.IN1
+cin => Y3.IN2
+cin => Y6.IN3
+cin => Y10.IN4
+C[4] <= H4.DB_MAX_OUTPUT_PORT_TYPE
+C[3] <= H3.DB_MAX_OUTPUT_PORT_TYPE
+C[2] <= H2.DB_MAX_OUTPUT_PORT_TYPE
+C[1] <= H1.DB_MAX_OUTPUT_PORT_TYPE
+
+

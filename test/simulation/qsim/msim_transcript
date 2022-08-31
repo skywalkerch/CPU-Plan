@@ -1,0 +1,29 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do nandTest_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying c:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/skywalkerch/Desktop/VerilogStudy/test {C:/Users/skywalkerch/Desktop/VerilogStudy/test/nandTest.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module nandTest
+# 
+# Top level modules:
+# 	nandTest
+# 
+vsim work.nandTest
+# vsim work.nandTest 
+# Loading work.nandTest
+add wave -position insertpoint  \
+sim:/nandTest/Pop
+add wave -position insertpoint  \
+sim:/nandTest/Pid
+vsim work.nandTest
+# vsim work.nandTest 
+# Loading work.nandTest

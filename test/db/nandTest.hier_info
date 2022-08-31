@@ -1,0 +1,12 @@
+|nandTest
+A => A1.IN0
+A => A3.IN0
+B => A1.IN1
+B => A2.IN0
+Cin => A2.IN1
+Cin => A3.IN1
+Cin => Sum.DATAIN
+Sum <= Cin.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= o1.DB_MAX_OUTPUT_PORT_TYPE
+
+

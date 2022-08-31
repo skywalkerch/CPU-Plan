@@ -1,0 +1,5 @@
+module CLA4(A,B,Cin,Cout);
+input [0:3] A,B;
+input Cin;
+output Cout;
+

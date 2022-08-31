@@ -1,0 +1,3 @@
+module nandTest(integer a,integer b,integer c);
+assign c=a nand b;
+endmodule

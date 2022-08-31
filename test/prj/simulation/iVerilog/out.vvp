@@ -1,0 +1,45 @@
+#! /mingw64/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1391-gd480c4d7d)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\msys64\mingw64\lib\ivl\system.vpi";
+:vpi_module "C:\msys64\mingw64\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\msys64\mingw64\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\msys64\mingw64\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\msys64\mingw64\lib\ivl\va_math.vpi";
+:vpi_module "C:\msys64\mingw64\lib\ivl\v2009.vpi";
+S_000002267ee22ae0 .scope package, "$unit" "$unit" 2 1;
+ .timescale 0 0;
+S_000002267ee22c70 .scope module, "nandTest" "nandTest" 3 1;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /INPUT 1 "Cin";
+    .port_info 3 /OUTPUT 1 "Sum";
+    .port_info 4 /OUTPUT 1 "Cout";
+o000002267ee56fb8 .functor BUFZ 1, C4<z>; HiZ drive
+o000002267ee56fe8 .functor BUFZ 1, C4<z>; HiZ drive
+L_000002267ee23420 .functor XOR 1, o000002267ee56fb8, o000002267ee56fe8, C4<0>, C4<0>;
+o000002267ee570a8 .functor BUFZ 1, C4<z>; HiZ drive
+o000002267ee57018 .functor BUFZ 1, C4<z>; HiZ drive
+L_000002267ee545d0 .functor XOR 1, o000002267ee570a8, o000002267ee57018, C4<0>, C4<0>;
+L_000002267ee0bdd0 .functor AND 1, o000002267ee56fb8, o000002267ee56fe8, C4<1>, C4<1>;
+L_000002267ee0be40 .functor AND 1, o000002267ee56fe8, o000002267ee57018, C4<1>, C4<1>;
+L_000002267ee0beb0 .functor AND 1, o000002267ee56fb8, o000002267ee57018, C4<1>, C4<1>;
+L_000002267ee0bf20 .functor OR 1, L_000002267ee0beb0, L_000002267ee0be40, L_000002267ee0bdd0, C4<0>;
+v000002267ee22e00_0 .net "A", 0 0, o000002267ee56fb8;  0 drivers
+v000002267ee22ea0_0 .net "B", 0 0, o000002267ee56fe8;  0 drivers
+v000002267ee0b840_0 .net "Cin", 0 0, o000002267ee57018;  0 drivers
+v000002267ee0b8e0_0 .net "Cout", 0 0, L_000002267ee0bf20;  1 drivers
+v000002267ee0b980_0 .net "S1", 0 0, L_000002267ee23420;  1 drivers
+v000002267ee0ba20_0 .net "S2", 0 0, o000002267ee570a8;  0 drivers
+v000002267ee0bac0_0 .net "Sum", 0 0, L_000002267ee545d0;  1 drivers
+v000002267ee0bb60_0 .net "T1", 0 0, L_000002267ee0beb0;  1 drivers
+v000002267ee0bc00_0 .net "T2", 0 0, L_000002267ee0be40;  1 drivers
+v000002267ee0bd30_0 .net "T3", 0 0, L_000002267ee0bdd0;  1 drivers
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "-";
+    "c:/Users/skywalkerch/Desktop/VerilogStudy/test/nandTest.v";
